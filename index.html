@@ -45,7 +45,17 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-ellipse">
+
+        <style>
+        .img-fluid.rounded-ellipse {
+            border-radius: 50%;
+            width: 100px; /* Adjust the width as needed */
+            height: 150px; /* Adjust the height as needed */
+            object-fit: cover;
+        }
+        </style>
+        <!-- <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle"> -->
         <h1 class="text-light"><a href="index.html">Eros Kuikel</a></h1>
         <div class="social-links mt-3 text-center">
  <a href="https://github.com/CodEros9231" class="github"><i class="bx bxl-github"></i></a>
@@ -94,6 +104,8 @@
 
         <div class="section-title">
             <h2>About</h2>
+            <p>trying to turn tea into wireless communication solutions, algorithms, and innovations. </p>
+            <br>
             <p>I am an Electrical Engineering and Computer Science (EECS) student at New York University Abu Dhabi. With a focus on Electronics and Signal Processing, I am dedicated to understanding the ways in which these fields can be used for practical solutions in day-to-day lives. As such, I am also involved in Machine Learning, Photonics, and Robotics to aid my academic and professional journey in Electronics and Signal Processing.</p>
         </div>
 
